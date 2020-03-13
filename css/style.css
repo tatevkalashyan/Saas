@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #C8ECFF ;
+    font-family: "SegoeUI", sans-serif;
+    color: #2E2E2E;
+}
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../fonts/SegoeUI.eot');
+    src: url('../fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI.svg#SegoeUI') format('svg'),
+    url('../fonts/SegoeUI.ttf') format('truetype'),
+    url('../fonts/SegoeUI.woff') format('woff'),
+    url('../fonts/SegoeUI.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('../fonts/SegoeUIBold.eot');
+    src: url('../fonts/SegoeUIBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUIBold.svg#SegoeUIBold') format('svg'),
+    url('../fonts/SegoeUIBold.ttf') format('truetype'),
+    url('../fonts/SegoeUIBold.woff') format('woff'),
+    url('../fonts/SegoeUIBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+
+}
+.navbar-nav {
+    font-family: "SegoeUIBold", sans-serif;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #2E2E2E;
+    padding-right: 23px!important;
+    padding-left: 23px!important;
+}
+.btn-transparent {
+    font: 16px/21px "SegoeUIBold";
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: black;
+}
+.navbar-toggler-icon {
+    background-image: url("../images/burger.png");
+    width: 29px;
+    height: 18px;
+}
+.blue-btn {
+    width: 154px;
+    height: 40px;
+    background-color: #4B7FB2;
+    border: 3px solid transparent;
+    font: 16px/21px "SegoeUIBold";
+    font-weight: 500;
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    outline: 0;
+    transition: all 0.3s;
+}
+.blue-btn:hover {
+    background-color: transparent;
+    border: 3px solid #4B7FB2;
+    color: #4B7FB2;
+}
+.btn-dark-yellow {
+    width: 154px;
+    height: 40px;
+    background-color: #FF774E ;
+    font: 16px/21px "SegoeUIBold";
+    font-weight: 500;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 3px solid transparent;
+    text-transform: capitalize;
+    outline: 0;
+    transition: all 0.3s;
+}
+.btn-dark-yellow-transparent{
+    width: 154px;
+    height: 40px;
+    background-color: transparent ;
+    font: 16px/21px "SegoeUIBold";
+    font-weight: 500;
+    border-radius: 20px;
+    color: #FF774E;
+    border: 3px solid #FF774E;
+    text-transform: capitalize;
+    outline: 0;
+    transition: all 0.3s;
+}
+.btn-dark-yellow-transparent:hover{
+    background-color: #FF774E ;
+    color: #ffffff;
+    border: 3px solid transparent;
+
+}
+.btn-dark-yellow:hover {
+    background-color: transparent ;
+    border: 3px solid #FF774E;
+    color: #FF774E;
+}
+.main-header {
+    background-image: url("../images/header-img.png");
+    max-width: 1920px;
+    width: 100%;
+    height: 855px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.rotating {
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+}
+.title-white-48 {
+    font: 48px/64px "SegoeUIBold";
+    color: #FFFFFF;
+}
+.p-18-white {
+    font: 18px/24px "Segoe UI Semibold";
+    color: #FFFFFF;
+}
+.main-header--input {
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 48px;
+    width: 393px;
+    border-radius: 24px;
+    outline: 0;
+    color: #ffffff;
+    padding: 0 40px 0 60px;
+}
+.envelop:before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 20px;
+    background-image: url("../images/email.png");
+    width: 23px;
+    height: 18px;
+}
+.main-header--input::placeholder {
+    color: #ffffff;
+}
+.title-bold-28 {
+    font: 28px/37px "SegoeUIBold";
+    color: #2E2E2E;
+}
+.title-bold-24 {
+    font: 24px/32px "SegoeUIBold";
+    color: #2E2E2E;
+}
+
+.bg-white-shadow {
+    box-shadow: 0 3px 20px #84848429;
+}
+
+.slide-avatar {
+    width: 178px;
+    height: 178px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.parallax-space {
+    background-image: url("../images/parallax-img.png");
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    padding: 80px 0;
+}
+.info-text-small {
+    font: 16px/21px "SegoeUI";
+    color: #2E2E2E;
+}
+.text-black-18 {
+    font: 18px/24px "SegoeUI";
+    color: #2E2E2E;
+}
+.saas-footer h4 {
+    font: 20px/27px "SegoeUIBold";
+    color: #ffffff;
+}
+.saas-footer ul li a{
+    font: 18px/25px "SegoeUI";
+    color: #ffffff;
+}
+.copyright-place h5 {
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "SegoeUIBold", sans-serif;
+}
+.copyright-place ul li a {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1920px){
+    .max-container {
+        max-width: 1640px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container-1370 {
+        max-width: 1370px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container-1564 {
+        max-width: 1564px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1199px){
+    .wrap {
+        flex-wrap: wrap;
+    }
+}

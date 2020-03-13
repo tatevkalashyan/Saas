@@ -1,0 +1,71 @@
+.mr-90 {
+    margin-right: 90px;
+}
+
+.pt-165 {
+    padding-top: 165px;
+}
+.p-tb-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.p-tb-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.p-tb-56 {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.p-tb-48-24 {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+.relative {
+    position: relative;
+}
+.min-h-400 {
+    min-height: 400px;
+}
+.max-w-500 {
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+.br-20 {
+    border-radius: 20px;
+}
+.color-gray {
+    color: #A5A5A5!important;
+}
+.color-green {
+    color: #00AF35!important;
+}
+.color-dark-yellow {
+    color: #FF774E!important;
+}
+.fs-60 {
+    font: 60px/80px "SegoeUIBold";
+}
+.fs-21 {
+    font: 21px/21px "SegoeUI";
+}
+.fs-16 {
+    font: 16px/21px "SegoeUI";
+}
+.fs-11 {
+    font: 11px/15px "SegoeUI";
+}
+.bg-light-blue {
+    background-color: #c8ecff;
+}
+.bg-dark-blue {
+    background-color: #4B7FB2 ;
+}
+.w-314-h {
+    width: 314px;
+    height: 174px;
+}
+.flex-1 {
+    flex: 1;
+}

@@ -1,0 +1,117 @@
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+    left: -80px;
+}
+.owl-nav button.owl-prev:after {
+    content: '';
+    position: absolute;
+    background-image: url("../images/prev.png");
+    width: 16px;
+    height: 28px;
+    background-repeat: no-repeat;
+    left: 20px;
+}
+.owl-nav button.owl-next {
+    right: -80px;
+}
+.owl-nav button.owl-next:after {
+    content: '';
+    position: absolute;
+    background-image: url("../images/next.png");
+    width: 16px;
+    height: 28px;
+    background-repeat: no-repeat;
+    left: 25px;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffffff !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+span {
+    font-size: 0px;
+    position: relative;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+.owl-slider.abs {
+    padding: 0 100px;
+    position: absolute;
+    top: -72px;
+    width: 100%;
+}
+.owl-slider .card {
+    /*margin: 0 auto;*/
+    width: 100%!important;
+    height: 358px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 20px #84848429;
+    border-radius: 20px;
+    text-align: center;
+    padding: 56px 60px 40px;
+    position: relative;
+}
+.owl-slider .card-body {
+  padding: 0;
+}
+.owl-slider .card .card-title{
+    font: 28px/37px "SegoeUIBold";
+    color: #2E2E2E;
+}
+.owl-slider .card .card-text{
+    font: 18px/24px "SegoeUI";
+    color: #2E2E2E;
+}
+.owl-slider .card .card-link{
+    position: absolute;
+    border: 3px solid #4B7FB2;
+    border-radius: 20px;
+    bottom: 40px;
+    text-align: center;
+    left: 68px;
+    width: 154px;
+    height: 40px;
+    color: #4B7FB2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-slider .card .card-link:hover{
+    color: #fff;
+    background-color: #4B7FB2;
+}
+.owl-carousel .owl-item .card img {
+    width: inherit;
+    margin: 0 auto;
+}
