@@ -98,6 +98,40 @@ body {
     outline: 0;
     transition: all 0.3s;
 }
+.blue-btn-transparent{
+    height: 40px;
+    background-color: transparent ;
+    font: 16px/21px "SegoeUIBold";
+    font-weight: 500;
+    border-radius: 20px;
+    color: #4B7FB2;
+    border: 3px solid #4B7FB2;
+    text-transform: capitalize;
+    outline: 0;
+    transition: all 0.3s;
+}
+.blue-btn-transparent:hover{
+    background-color: #4B7FB2 ;
+    color: #ffffff;
+    border: 3px solid transparent;
+}
+.btn-white-transparent{
+    height: 40px;
+    background-color: transparent ;
+    font: 16px/21px "SegoeUIBold";
+    font-weight: 500;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    text-transform: capitalize;
+    outline: 0;
+    transition: all 0.3s;
+}
+.btn-white-transparent:hover{
+    background-color: #ffffff ;
+    color: #4B7FB2;
+    border: 3px solid #4B7FB2;
+}
 .btn-dark-yellow-transparent:hover{
     background-color: #FF774E ;
     color: #ffffff;
@@ -237,6 +271,114 @@ body {
 .copyright-place ul li a {
     font-size: 14px;
     line-height: 19px;
+}
+.pricing .bg-white.card {
+    padding: 64px 20px;
+}
+.pricing .card-title {
+    font: 37px/49px "SegoeUIBold";
+    color: #2E2E2E;
+}
+.pricing .bg-dark-blue .card-title {
+    font: 37px/49px "SegoeUIBold";
+    color: #ffffff;
+}
+.pricing .card-subtitle {
+    font: 50px/67px "SegoeUIBold";
+    color: #2E2E2E;
+}
+.pricing .bg-dark-blue .card-subtitle {
+    font: 50px/67px "SegoeUIBold";
+    color: #ffffff;
+}
+.pricing  ul {
+   min-height: 100px;
+
+}
+.pricing  ul li {
+    font: 16px/21px "SegoeUI";
+    letter-spacing: 0;
+    color: #2E2E2E;
+    position: relative;
+    margin-bottom: 6px;
+}
+.pricing  ul li:before {
+    content: "";
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 20px;
+    left: -30px;
+    top: 5px;
+    position: absolute;
+}
+.pricing .bg-dark-blue ul li {
+    font: 16px/21px "SegoeUI";
+    letter-spacing: 0;
+    color: #FFFFFF;
+    position: relative;
+}
+.pricing .bg-dark-blue ul li:before {
+    content: "";
+    background-image: url("../images/correct-white.png");
+}
+.get-new {
+    font: 14px/19px "SegoeUI";
+    color: #4B7FB2;
+    text-transform: uppercase;
+    position: relative;
+}
+.bg-dark-blue .get-new {
+    font: 14px/19px "SegoeUI";
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.get-new:after{
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #4B7FB2;
+    left: 0;
+    top: 10px;
+}
+.get-new:before{
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #4B7FB2;
+    right: 0;
+    top: 10px;
+}
+.bg-dark-blue .get-new:after{
+    content: " ";
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background-color: #ffffff;
+    left: 0;
+    top: 10px;
+}
+.bg-dark-blue .get-new:before{
+    content: " ";
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background-color: #ffffff;
+    right: 0;
+    top: 10px;
+}
+.pricing .abs{
+    position: absolute;
+    bottom: -35px;
+    left: calc(50% - 230px / 2);
+    right: 0;
+}
+.pricing .bg-dark-blue .abs{
+    bottom: -50px;
 }
 
 
