@@ -41,7 +41,7 @@
             <div class="form-group">
                 <input type="email" class="form-control" id="inputAddress" placeholder="Email">
             </div>
-            <button type="submit" class="btn-dark-yellow">See Pricing</button>
+            <button  class="btn-dark-yellow">See Pricing</button>
         </form>
     </div>
 </div>
@@ -449,6 +449,12 @@
         dots: false,
         items: 1,
         margin: 20,
+    });
+</script>
+<script>
+    $(".left-side--content .btn-dark-yellow").click(function (e) {
+        e.preventDefault();
+        $('.left-side').hide();
     });
 </script>
 </body>

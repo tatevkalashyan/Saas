@@ -83,5 +83,5 @@
     flex: 1;
 }
 button:focus {
-    outline: none;
+    outline: 0!important;
 }
