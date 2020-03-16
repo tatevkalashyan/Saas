@@ -82,7 +82,7 @@ body {
     color: #ffffff;
     border: 3px solid transparent;
     text-transform: capitalize;
-    outline: 0;
+    outline: none;
     transition: all 0.3s;
 }
 .btn-dark-yellow-transparent{
@@ -223,6 +223,10 @@ body {
     font: 28px/37px "SegoeUIBold";
     color: #2E2E2E;
 }
+.title-bold-34 {
+    font: 34px/46px "SegoeUIBold";
+    color: #2E2E2E;
+}
 .title-bold-24 {
     font: 24px/32px "SegoeUIBold";
     color: #2E2E2E;
@@ -252,6 +256,10 @@ body {
 }
 .text-black-18 {
     font: 18px/24px "SegoeUI";
+    color: #2E2E2E;
+}
+.text-black-20 {
+    font: 20px/27px "SegoeUI";
     color: #2E2E2E;
 }
 .saas-footer h4 {
@@ -382,6 +390,40 @@ body {
 }
 
 
+.left-side {
+    background:  rgba(69, 91, 113, 0.47);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+
+}
+.left-side--content {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.3);
+    background-color: #ffffff;
+    padding: 30px 38px;
+    height: 100%;
+    min-height: 100vh;
+    width: 516px;
+
+}
+.left-side--content .form-control {
+    width: 100%;
+    height: 56px;
+    border-radius: 30px;
+    font: 16px/21px "SegoeUI";
+    color: #A8A8A8;
+    padding: 0 15px 0 30px;
+    border: 1px solid #707070;
+}
+.left-side--content .form-control::placeholder {
+    font: 16px/21px "SegoeUI";
+    color: #A8A8A8;
+}
+.left-side--content button {
+    font: 16px/21px "SegoeUIBold";
+    color: #ffffff;
+}
 
 @media screen and (min-width: 1200px) and (max-width: 1920px){
     .max-container {
